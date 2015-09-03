@@ -7,6 +7,7 @@
         {% block viewport %}
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
         {% endblock %}
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
 
         {% block styles %}{% endblock %}
 
@@ -25,22 +26,19 @@
         <div class="{% block wrapper_class %}{% endblock %}">
 
             {% block topbar_base %}
-                <header>
-                    <div class="navbar navbar-default {% block navbar_class %}navbar-fixed-top{% endblock %}">
+                    <nav class="navbar navbar-light bg-faded {% block navbar_class %}navbar-fixed-top{% endblock %}">
                         <div class="container">
                         {% block topbar %}
-                            <div class="navbar-header">
-                                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="fa fa-bars"></span>
-                                </button>
-                                {% block site_brand %}<a class="navbar-brand" href="{% url "home" %}">{{ SITE_NAME }}</a>{% endblock %}
-                            </div>
-                            <div class="collapse navbar-collapse navbar-responsive-collapse">
+                            <button class="navbar-toggler hidden-sm-up pull-right" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                                <span class="fa fa-bars"></span>
+                            </button>
+                            {% block site_brand %}<a class="navbar-brand" href="{% url "home" %}">{{ SITE_NAME }}</a>{% endblock %}
+                            <div class="collapse navbar-collapse navbar-toggleable-xs">
                                 {% block nav %}
                                     {% comment %}
                                         <ul class="nav navbar-nav">
-                                            <li><a href="#tab_one">One</a></li>
-                                            <li><a href="#tab_two">Two</a></li>
+                                            <li class="nav-item active"><a class="nav-link" href="#tab_one">One</a></li>
+                                            <li class="nav-item"><a class="nav-link" href="#tab_two">Two</a></li>
                                         </ul>
                                     {% endcomment %}
                                 {% endblock %}
@@ -48,8 +46,7 @@
                             </div>
                         {% endblock %}
                         </div>
-                    </div>
-                </header>
+                    </nav>
             {% endblock %}
 
             {% block body_base %}
