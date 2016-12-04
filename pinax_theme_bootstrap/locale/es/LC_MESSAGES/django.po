@@ -1,91 +1,90 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: pinax-theme-bootstrap\n"
+"Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-12-03 22:16-0600\n"
-"PO-Revision-Date: 2015-07-20 13:33+0900\n"
-"Last-Translator: Hiroshi Miura <miurahr@linux.com>\n"
-"Language-Team: Japanese\n"
-"Language: ja\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.5.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: templates/404.html:5
 msgid "Not Found"
-msgstr "見つかりません"
+msgstr ""
 
 #: templates/404.html:9
 msgid "Page not found"
-msgstr "ページが見つかりません"
+msgstr ""
 
 #: templates/404.html:10
 msgid "We're sorry but that page could not be found."
-msgstr "申し訳ありません、ページが見つかりません。"
+msgstr ""
 
 #: templates/500.html:5
 msgid "Server Error"
-msgstr "サーバエラー"
+msgstr ""
 
 #: templates/500.html:9
 msgid "Something went wrong"
-msgstr "何かがおかしいようです"
+msgstr ""
 
 #: templates/500.html:10
 msgid ""
 "We're sorry but a server error has occurred. We've been notified and will "
 "look into it as soon as possible."
 msgstr ""
-"申し訳ありません。サーバエラーが発生しました。通知が行き、なるべく早く調査を"
-"行います。"
 
 #: templates/_account_bar.html:12 templates/account/base.html:9
 msgid "Settings"
-msgstr "設定"
+msgstr "Configuración"
 
 #: templates/_account_bar.html:14
 msgid "Admin"
-msgstr "管理画面"
+msgstr ""
 
 #: templates/_account_bar.html:18 templates/account/logout.html:5
 #: templates/account/logout.html:11 templates/account/logout.html:15
 msgid "Log out"
-msgstr "ログアウト"
+msgstr "Salir"
 
 #: templates/_account_bar.html:23 templates/account/login.html:7
 #: templates/account/login.html:19 templates/account/signup.html:23
 msgid "Log in"
-msgstr "ログイン"
+msgstr "Acceder"
 
 #: templates/_account_bar.html:25 templates/account/login.html:25
 #: templates/account/signup.html:7 templates/account/signup.html:13
 #: templates/account/signup.html:19 templates/account/signup_closed.html:5
 msgid "Sign up"
-msgstr "会員登録"
+msgstr "Registrarse"
 
 #: templates/account/base.html:12 templates/account/settings.html:8
 #: templates/account/settings.html:14
 msgid "Account"
-msgstr "アカウント"
+msgstr "Cuenta"
 
 #: templates/account/base.html:15 templates/account/password_change.html:8
 #: templates/account/password_change.html:14
 msgid "Change password"
-msgstr "パスワードを変更する"
+msgstr "Cambiar contraseña"
 
 #: templates/account/base.html:18
 msgid "Delete account"
-msgstr "アカウント削除"
+msgstr "Borrar cuenta"
 
 #: templates/account/delete.html:7 templates/account/delete.html:10
 msgid "Delete Account"
-msgstr "アカウント削除"
+msgstr "Borrar Cuenta"
 
 #: templates/account/delete.html:12
 #, python-format
@@ -93,12 +92,12 @@ msgid ""
 "If you go ahead and delete your account, your information will be "
 "<b>expunged within %(ACCOUNT_DELETION_EXPUNGE_HOURS)s hours</b>."
 msgstr ""
-"手続きを進めて、アカウントを削除した場合、個人情報は<b>"
-"%(ACCOUNT_DELETION_EXPUNGE_HOURS)s 時間以内に削除されます。</b>"
+"Si borras la cuenta, toda la información tambien se borrara<b>en unas "
+"%(ACCOUNT_DELETION_EXPUNGE_HOURS)s hrs</b>."
 
 #: templates/account/delete.html:16
 msgid "Delete My Account"
-msgstr "アカウント削除"
+msgstr "Borrar Mi Cuenta"
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
@@ -109,16 +108,11 @@ msgid ""
 "\n"
 "If you did not sign up for this site, you can ignore this message.\n"
 msgstr ""
-"この電子メールアドレスで、%(site_name)s のユーザが作成されました。\n"
-"\n"
-"電子メールアドレスを確認するには、 %(activate_url)sをアクセスしてください。\n"
-"\n"
-"もしこのサイトに登録したくない場合は、メッセージを無視できます。\n"
 
 #: templates/account/email/email_confirmation_subject.txt:1
 #, python-format
 msgid "Confirm email address for %(site_name)s"
-msgstr "%(site_name)sのメールアドレスの再確認"
+msgstr ""
 
 #: templates/account/email/invite_user.txt:1
 #, python-format
@@ -127,14 +121,11 @@ msgid ""
 "\n"
 "%(signup_url)s\n"
 msgstr ""
-" %(name)s にユーザ登録するように招待されました。\n"
-"\n"
-"%(signup_url)s\n"
 
 #: templates/account/email/invite_user_subject.txt:1
 #, python-format
 msgid "Create an account on %(name)s"
-msgstr "%(name)s でアカウントを作成"
+msgstr "Creando una cuenta en %(name)s"
 
 #: templates/account/email/password_change.txt:1
 #, python-format
@@ -142,12 +133,10 @@ msgid ""
 "This is the email notification to confirm your password has been changed on "
 "%(now)s."
 msgstr ""
-"このメール通知は、パスワードが%(now)sに変更されたことを確認するために送付しま"
-"した。"
 
 #: templates/account/email/password_change_subject.txt:1
 msgid "Change password email notification"
-msgstr "パスワード変更の電子メール通知を変更する。"
+msgstr ""
 
 #: templates/account/email/password_reset.txt:1
 #, python-format
@@ -159,36 +148,30 @@ msgid ""
 "\n"
 "%(password_reset_url)s\n"
 msgstr ""
-"誰かが、%(site_name)s のユーザ登録でパスワード再設定を申請したので、このメー"
-"ルを送付しました。\n"
-"もしパスワードの再設定をしたくない場合には、無視しても結構です。パスワードを"
-"再設定するには、次のリンクをクリックしてください。\n"
-"\n"
-"%(password_reset_url)s\n"
 
 #: templates/account/email/password_reset_subject.txt:1
 #, python-format
 msgid "[%(site_name)s] Password reset"
-msgstr "[%(site_name)s] パスワード再設定"
+msgstr ""
 
 #: templates/account/email_confirm.html:5
 #: templates/account/email_confirm.html:11
 msgid "Confirm Email"
-msgstr "メールアドレスの確認"
+msgstr ""
 
 #: templates/account/email_confirm.html:14
 #, python-format
 msgid "Confirm email address <b>%(email)s</b>?"
-msgstr "電子メールアドレス<b>%(email)s</b>を確認しますか?"
+msgstr ""
 
 #: templates/account/email_confirm.html:15
 msgid "Confirm"
-msgstr "確認する"
+msgstr ""
 
 #: templates/account/email_confirmation_sent.html:5
 #: templates/account/email_confirmation_sent.html:8
 msgid "Confirm your email address"
-msgstr "電子メールアドレスの確認"
+msgstr ""
 
 #: templates/account/email_confirmation_sent.html:10
 #, python-format
@@ -198,64 +181,58 @@ msgid ""
 "within a few minutes, contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s"
 "\">%(THEME_CONTACT_EMAIL)s</a>."
 msgstr ""
-"電子メールを<b>%(email)s</b>に確認のために送信しました。電子メールに記載され"
-"たリンクにアクセスして、ユーザ登録手続きを完了させて下さい。もし数分待っても"
-"メールが届かない場合は、 <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">"
-"%(THEME_CONTACT_EMAIL)s</a>にご連絡ください。"
 
 #: templates/account/email_confirmation_sent.html:11
 msgid "Go back"
-msgstr "戻る"
+msgstr ""
 
 #: templates/account/email_confirmed.html:5
 #: templates/account/email_confirmed.html:8
 msgid "Email confirmed"
-msgstr "電子メールアドレスが確認できました。"
+msgstr ""
 
 #: templates/account/email_confirmed.html:9
 #, python-format
 msgid "You have confirmed <b>%(email)s</b>"
-msgstr "<b>%(email)s</b>が確認できました。"
+msgstr ""
 
 #: templates/account/login.html:13
 msgid "Log in to an existing account"
-msgstr "既存のアカウントでログインする"
+msgstr "Ingresa a una cuenta"
 
 #: templates/account/login.html:20
 msgid "Forgot your password?"
-msgstr "パスワードをお忘れですか？"
+msgstr "¿Olvidaste tú contraseña?"
 
 #: templates/account/login.html:25
 msgid "Don't have an account?"
-msgstr "アカウントがありませんか？"
+msgstr "¿No tienes cuenta?"
 
 #: templates/account/logout.html:14
 msgid "Are you sure you want to log out?"
-msgstr "本当にログアウトしてよろしいですか？"
+msgstr "¿Estas seguro que quieres salir ?"
 
 #: templates/account/password_change.html:18
 #: templates/account/password_reset_token.html:16
 #: templates/account/settings.html:17
 #: templates/pinax/announcements/announcement_form.html:23
 msgid "Save"
-msgstr "保存"
+msgstr "Salvar"
 
 #: templates/account/password_reset.html:7
 #: templates/account/password_reset.html:15
 msgid "Password reset"
-msgstr "パスワードリセット"
+msgstr "Reiniciar contrañsea"
 
 #: templates/account/password_reset.html:16
 msgid ""
 "Forgotten your password? Enter your email address below, and we'll send you "
 "an email allowing you to reset it."
 msgstr ""
-"パスワードを忘れましたか？次の入力欄に電子メールアドレスを入力してください。"
-"パスワードを再設定する方法を示した電子メールを送付します。"
 
 #: templates/account/password_reset.html:22
 msgid "Reset my password"
-msgstr "パスワードの再設定"
+msgstr ""
 
 #: templates/account/password_reset.html:29
 #, python-format
@@ -263,13 +240,11 @@ msgid ""
 "If you have any trouble resetting your password, contact us at <a href="
 "\"mailto:%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>."
 msgstr ""
-"パスワードの再設定にあたって問題がありましたら、<a href=\"mailto:"
-"%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>にご連絡ください。"
 
 #: templates/account/password_reset_sent.html:6
 #: templates/account/password_reset_sent.html:9
 msgid "Password reset sent"
-msgstr "パスワードの再設定メールを送信しました。"
+msgstr ""
 
 #: templates/account/password_reset_sent.html:11
 #, python-format
@@ -278,13 +253,10 @@ msgid ""
 "try resending or contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">"
 "%(THEME_CONTACT_EMAIL)s</a>."
 msgstr ""
-"電子メールを送信しました。もし、数分しても受信できない場合には、再送信を試み"
-"るか、<a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>"
-"へご連絡ください。"
 
 #: templates/account/password_reset_sent.html:20
 msgid "Resend"
-msgstr "再送信"
+msgstr ""
 
 #: templates/account/password_reset_sent.html:25
 #, python-format
@@ -293,19 +265,16 @@ msgid ""
 "minutes, contact us at <a href=\"mailto:%(THEME_CONTACT_EMAIL)s\">"
 "%(THEME_CONTACT_EMAIL)s</a>."
 msgstr ""
-"パスワード設定のメールを送付しました。もし数分しても届かない場合は、<a href="
-"\"mailto:%(THEME_CONTACT_EMAIL)s\">%(THEME_CONTACT_EMAIL)s</a>にご連絡くださ"
-"い。"
 
 #: templates/account/password_reset_token.html:6
 #: templates/account/password_reset_token.html:12
 msgid "Set your new password"
-msgstr "新しいパスワードの設定"
+msgstr ""
 
 #: templates/account/password_reset_token_fail.html:5
 #: templates/account/password_reset_token_fail.html:8
 msgid "Bad token"
-msgstr "不正なトークン"
+msgstr ""
 
 #: templates/account/password_reset_token_fail.html:10
 #, python-format
@@ -313,20 +282,18 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a <a href=\"%(url)s\">new password reset</a>."
 msgstr ""
-"パスワード再設定のURLは不正です。すでに使われた可能性があります。 新規の<a "
-"href=\"%(url)s\">パスワード再設定を</a>申請してください。"
 
 #: templates/account/signup.html:23
 msgid "Already have an account?"
-msgstr "すでにアカウントを作成済みですか？"
+msgstr ""
 
 #: templates/account/signup_closed.html:8
 msgid "This site is in private beta"
-msgstr "このサイトは、ベータ版です。"
+msgstr ""
 
 #: templates/account/signup_closed.html:9
 msgid "If you have signup code you can enter it below."
-msgstr "ユーザ登録コードをお持ちでしたら、以下に入力してください。"
+msgstr ""
 
 #: templates/account/signup_closed.html:11
 msgid "Your signup code..."
@@ -337,36 +304,32 @@ msgstr ""
 #: templates/pagination/django_pagination_pagination.html:8
 #: templates/pagination/django_pagination_pagination.html:11
 msgid "Previous"
-msgstr "前へ"
+msgstr ""
 
 #: templates/pagination/builtin_pagination.html:18
 #: templates/pagination/builtin_pagination.html:20
 #: templates/pagination/django_pagination_pagination.html:21
 #: templates/pagination/django_pagination_pagination.html:23
 msgid "Next"
-msgstr "次へ"
+msgstr ""
 
 #: templates/pagination/builtin_pagination_reverse.html:10
 #: templates/pagination/builtin_pagination_reverse.html:13
 msgid "Newer"
-msgstr "より新しい"
+msgstr ""
 
 #: templates/pagination/builtin_pagination_reverse.html:19
 #: templates/pagination/builtin_pagination_reverse.html:21
 msgid "Older"
-msgstr "より旧い"
+msgstr ""
 
 #: templates/pinax/announcements/announcement_confirm_delete.html:8
-#, fuzzy
-#| msgid "Delete Account"
 msgid "Delete Announcement?"
-msgstr "アカウント削除"
+msgstr ""
 
 #: templates/pinax/announcements/announcement_confirm_delete.html:11
-#, fuzzy
-#| msgid "Are you sure you want to log out?"
 msgid "Are you sure you want to delete this announcement?"
-msgstr "本当にログアウトしてよろしいですか？"
+msgstr ""
 
 #: templates/pinax/announcements/announcement_confirm_delete.html:20
 #: templates/pinax/announcements/announcement_form.html:19
@@ -381,10 +344,8 @@ msgstr ""
 #: templates/pinax/documents/document_confirm_delete.html:30
 #: templates/pinax/documents/folder_confirm_delete.html:30
 #: templates/pinax/messages/thread_confirm_delete.html:28
-#, fuzzy
-#| msgid "Delete account"
 msgid "Delete"
-msgstr "アカウント削除"
+msgstr ""
 
 #: templates/pinax/announcements/announcement_form.html:8
 msgid "Edit Announcement"
@@ -411,26 +372,20 @@ msgid "Edit"
 msgstr ""
 
 #: templates/pinax/documents/document_confirm_delete.html:10
-#, fuzzy
-#| msgid "Delete account"
 msgid "Delete Document?"
-msgstr "アカウント削除"
+msgstr ""
 
 #: templates/pinax/documents/document_confirm_delete.html:19
-#, fuzzy
-#| msgid "Are you sure you want to log out?"
 msgid "Are you sure you want to delete this document?"
-msgstr "本当にログアウトしてよろしいですか？"
+msgstr ""
 
 #: templates/pinax/documents/folder_confirm_delete.html:10
 msgid "Delete Folder?"
 msgstr ""
 
 #: templates/pinax/documents/folder_confirm_delete.html:17
-#, fuzzy
-#| msgid "Are you sure you want to log out?"
 msgid "Are you sure you want to delete this folder and all of it's contents?"
-msgstr "本当にログアウトしてよろしいですか？"
+msgstr ""
 
 #: templates/pinax/invitations/_invite_form.html:15
 msgid "Invite"
@@ -449,7 +404,5 @@ msgid "Delete Thread?"
 msgstr ""
 
 #: templates/pinax/messages/thread_confirm_delete.html:17
-#, fuzzy
-#| msgid "Are you sure you want to log out?"
 msgid "Are you sure you want to delete this thread?"
-msgstr "本当にログアウトしてよろしいですか？"
+msgstr ""
