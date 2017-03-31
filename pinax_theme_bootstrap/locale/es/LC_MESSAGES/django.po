@@ -3,46 +3,46 @@
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-12-03 22:16-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"POT-Creation-Date: 2017-03-30 18:40-0600\n"
+"PO-Revision-Date: 2017-03-30 18:45-0600\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: Pelana <pelana@hushmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: templates/404.html:5
 msgid "Not Found"
-msgstr ""
+msgstr "No encontrado (not found)."
 
 #: templates/404.html:9
 msgid "Page not found"
-msgstr ""
+msgstr "Página no encontrada"
 
 #: templates/404.html:10
 msgid "We're sorry but that page could not be found."
-msgstr ""
+msgstr "Lo siento pero la página no fue encontrada"
 
 #: templates/500.html:5
 msgid "Server Error"
-msgstr ""
+msgstr "Server error."
 
 #: templates/500.html:9
 msgid "Something went wrong"
-msgstr ""
+msgstr "Algo pasó"
 
 #: templates/500.html:10
 msgid ""
 "We're sorry but a server error has occurred. We've been notified and will "
 "look into it as soon as possible."
-msgstr ""
+msgstr "Error en server"
 
 #: templates/_account_bar.html:12 templates/account/base.html:9
 msgid "Settings"
@@ -50,7 +50,7 @@ msgstr "Configuración"
 
 #: templates/_account_bar.html:14
 msgid "Admin"
-msgstr ""
+msgstr "Administración"
 
 #: templates/_account_bar.html:18 templates/account/logout.html:5
 #: templates/account/logout.html:11 templates/account/logout.html:15
@@ -136,7 +136,7 @@ msgstr ""
 
 #: templates/account/email/password_change_subject.txt:1
 msgid "Change password email notification"
-msgstr ""
+msgstr "Email de notificación de Cambio de contraseña"
 
 #: templates/account/email/password_reset.txt:1
 #, python-format
@@ -157,7 +157,7 @@ msgstr ""
 #: templates/account/email_confirm.html:5
 #: templates/account/email_confirm.html:11
 msgid "Confirm Email"
-msgstr ""
+msgstr "Confirma tu email"
 
 #: templates/account/email_confirm.html:14
 #, python-format
@@ -166,12 +166,12 @@ msgstr ""
 
 #: templates/account/email_confirm.html:15
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"
 
 #: templates/account/email_confirmation_sent.html:5
 #: templates/account/email_confirmation_sent.html:8
 msgid "Confirm your email address"
-msgstr ""
+msgstr "Confirma tu email."
 
 #: templates/account/email_confirmation_sent.html:10
 #, python-format
@@ -184,12 +184,12 @@ msgstr ""
 
 #: templates/account/email_confirmation_sent.html:11
 msgid "Go back"
-msgstr ""
+msgstr "Regresar"
 
 #: templates/account/email_confirmed.html:5
 #: templates/account/email_confirmed.html:8
 msgid "Email confirmed"
-msgstr ""
+msgstr "Email Confirmado"
 
 #: templates/account/email_confirmed.html:9
 #, python-format
@@ -232,7 +232,7 @@ msgstr ""
 
 #: templates/account/password_reset.html:22
 msgid "Reset my password"
-msgstr ""
+msgstr "Cambiar mi contraseña"
 
 #: templates/account/password_reset.html:29
 #, python-format
@@ -244,7 +244,7 @@ msgstr ""
 #: templates/account/password_reset_sent.html:6
 #: templates/account/password_reset_sent.html:9
 msgid "Password reset sent"
-msgstr ""
+msgstr "Contraseña enviada"
 
 #: templates/account/password_reset_sent.html:11
 #, python-format
@@ -256,7 +256,7 @@ msgstr ""
 
 #: templates/account/password_reset_sent.html:20
 msgid "Resend"
-msgstr ""
+msgstr "Reenviar"
 
 #: templates/account/password_reset_sent.html:25
 #, python-format
@@ -269,12 +269,12 @@ msgstr ""
 #: templates/account/password_reset_token.html:6
 #: templates/account/password_reset_token.html:12
 msgid "Set your new password"
-msgstr ""
+msgstr "Ingrese nueva contraseña"
 
 #: templates/account/password_reset_token_fail.html:5
 #: templates/account/password_reset_token_fail.html:8
 msgid "Bad token"
-msgstr ""
+msgstr "Token invalído"
 
 #: templates/account/password_reset_token_fail.html:10
 #, python-format
@@ -285,11 +285,11 @@ msgstr ""
 
 #: templates/account/signup.html:23
 msgid "Already have an account?"
-msgstr ""
+msgstr "¿Ya tienes  una cuenta?"
 
 #: templates/account/signup_closed.html:8
 msgid "This site is in private beta"
-msgstr ""
+msgstr "Este sitio aun esta en beta privado"
 
 #: templates/account/signup_closed.html:9
 msgid "If you have signup code you can enter it below."
@@ -297,31 +297,31 @@ msgstr ""
 
 #: templates/account/signup_closed.html:11
 msgid "Your signup code..."
-msgstr ""
+msgstr "Tu código de activación ..."
 
 #: templates/pagination/builtin_pagination.html:9
 #: templates/pagination/builtin_pagination.html:12
 #: templates/pagination/django_pagination_pagination.html:8
 #: templates/pagination/django_pagination_pagination.html:11
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: templates/pagination/builtin_pagination.html:18
 #: templates/pagination/builtin_pagination.html:20
 #: templates/pagination/django_pagination_pagination.html:21
 #: templates/pagination/django_pagination_pagination.html:23
 msgid "Next"
-msgstr ""
+msgstr "Siguiente"
 
 #: templates/pagination/builtin_pagination_reverse.html:10
 #: templates/pagination/builtin_pagination_reverse.html:13
 msgid "Newer"
-msgstr ""
+msgstr "Nuevo"
 
 #: templates/pagination/builtin_pagination_reverse.html:19
 #: templates/pagination/builtin_pagination_reverse.html:21
 msgid "Older"
-msgstr ""
+msgstr "Viejo"
 
 #: templates/pinax/announcements/announcement_confirm_delete.html:8
 msgid "Delete Announcement?"
@@ -337,7 +337,7 @@ msgstr ""
 #: templates/pinax/documents/folder_confirm_delete.html:29
 #: templates/pinax/messages/thread_confirm_delete.html:27
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: templates/pinax/announcements/announcement_confirm_delete.html:21
 #: templates/pinax/announcements/announcement_form.html:21
@@ -345,7 +345,7 @@ msgstr ""
 #: templates/pinax/documents/folder_confirm_delete.html:30
 #: templates/pinax/messages/thread_confirm_delete.html:28
 msgid "Delete"
-msgstr ""
+msgstr "Borrar"
 
 #: templates/pinax/announcements/announcement_form.html:8
 msgid "Edit Announcement"
@@ -361,7 +361,7 @@ msgstr ""
 
 #: templates/pinax/announcements/announcement_list.html:9
 msgid "Announcements"
-msgstr ""
+msgstr "Anuncios"
 
 #: templates/pinax/announcements/announcement_list.html:11
 msgid "Add New Announcement"
@@ -369,7 +369,7 @@ msgstr ""
 
 #: templates/pinax/announcements/announcement_list.html:20
 msgid "Edit"
-msgstr ""
+msgstr "Editar"
 
 #: templates/pinax/documents/document_confirm_delete.html:10
 msgid "Delete Document?"
@@ -389,7 +389,7 @@ msgstr ""
 
 #: templates/pinax/invitations/_invite_form.html:15
 msgid "Invite"
-msgstr ""
+msgstr "Invitar"
 
 #: templates/pinax/invitations/_invite_form.html:21
 msgid "You do not have any invitations currrently."
